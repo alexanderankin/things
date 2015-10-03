@@ -1,0 +1,1 @@
+ echo "module.exports = " > response.js &&  curl 'https://maps.googleapis.com/maps/api/directions/json?origin=Toronto&destination=Montreal&key=AIzaSyCi7_Wp6tlmEnfIuf1ygXW91NPU2TMtEoY' >> response.js
